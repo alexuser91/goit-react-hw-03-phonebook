@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.button_delete {
+  height: 35px;
+  width: 100px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #555;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.25s ease, color 0.25s ease;
+
+  &:hover,
+  &:focus {
+    background-color: #333;
+    color: #fff;
+  }
+}
